@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>JS Buổi 6</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css" />
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+	<!-- Bài 1 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 1</h3>
+			<p>Tìm số nguyên dương nhỏ nhất</p>
+			<button id="btn-soNguyenDuong">
+				Xem kết quả
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketqua-soNguyenDuong"></div>
+		</div>
+	</div>
+
+	<!-- Bài 2 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 2</h3>
+			<p>Nhập vào 2 số x, n tính tổng: S(n) = x + x^2
+				+ x^3 + … + x^n</p>
+
+			</label>
+			<label class="form-group">
+				<input id="soX" type="text" class="form-control" required />
+				<span for="">Số x</span>
+				<span class="border"></span>
+			</label>
+
+			<label class="form-group">
+				<input id="soN" type="text" class="form-control" required />
+				<span for="">Số n</span>
+				<span class="border"></span>
+			</label>
+
+			<button id="btn-tinhTong">
+				Tính
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketqua-tinhTong"></div>
+		</div>
+	</div>
+
+	<!-- Bài 3 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 3</h3>
+			<p>Tinh giai thừa</p>
+			<label class="form-group">
+				<input id="soGiaiThua" type="text" class="form-control" required />
+				<span for="">Số n</span>
+				<span class="border"></span>
+			</label>
+			<button id="btn-tinhGiaiThua">
+				Tính
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketqua-giaiThua"></div>
+		</div>
+	</div>
+
+	<!-- Bài 4 -->
+	<div class="wrapper">
+		<div class="inner">
+			<!-- <form action=""> -->
+			<h3>Bài 4</h3>
+			<p>In ra thẻ div</p>
+			<button id="btn-in">
+				In
+				<i class="zmdi zmdi-arrow-right"></i>
+			</button>
+			<!-- </form> -->
+			<div class="ketQua" id="ketqua-div"></div>
+
+		</div>
+	</div>
+
+	<script src="./main.js"></script>
+</body>
+
+</html>
